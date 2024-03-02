@@ -8,6 +8,8 @@
 }
 
 img {
+    width: 100%;
+
     display: block;
 }
 
@@ -15,9 +17,8 @@ img {
     margin: 0 auto;
     padding: 0 30px;
 
-    max-width: 1280px;
+    max-width: 1366px;
 }
-
 
 .button {
     padding: 0.5em 2em;
@@ -27,7 +28,15 @@ img {
     color: black;
     background-color: #ffcf40;
     
-    font-size: 20px;
+    font-size: 24px;
 
     border-radius: 0.25em;
+
+    transition: background-color .3s;
+
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #deb22e;
 }
