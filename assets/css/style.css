@@ -7,6 +7,10 @@
     font-family: 'Sofia Sans';
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 img {
     width: 100%;
 
@@ -29,6 +33,7 @@ img {
     background-color: #ffcf40;
     
     font-size: 24px;
+    text-decoration: none;
 
     border-radius: 0.25em;
 
